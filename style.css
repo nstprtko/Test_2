@@ -1,0 +1,138 @@
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(94, 57, 114);
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 1cm;
+}
+
+
+ul[class="menu"]{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center ;
+    background-color: rgba(188, 170, 147, 0.319);
+    border-radius: 30px;
+}
+li{
+    margin-left: 17px;
+    margin-right: 17px;
+    margin-top: 10px;
+    color: rgb(55, 116, 96);
+}
+a:visited{
+    color: rgb(199, 169, 244);
+
+}
+a:hover{
+    font-style: italic;
+    color:red;
+    background-color: blue;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: beige;
+    
+}
+
+p[class=header]{
+    color: rgb(73, 62, 48);
+    text-align: center;
+    width: auto;
+    font:italic;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+div[class="columns"]{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+@media (max-width: 800px){
+    .columns {
+        flex-direction: column;
+    }
+}
+div[class="column"]{
+    color:rgb(66, 64, 57);
+    text-align: center;
+    background-color: rgb(179, 152, 206);
+    border-radius: 20px; 
+}
+div[class="links"]{
+    background-color: rgba(4, 4, 69, 0.668);
+    border-radius: 20px;
+    text-align: right;
+    padding-right: 20px;
+}
+h1 {
+    color:green
+}
+
+table-wrapper{
+    display: flex;
+    justify-content: center; /* Centers the table */
+    align-items: center; /* Aligns content vertically */
+    
+    flex-direction: column;
+}
+caption{
+    padding-bottom: 30px;
+    text-align: center;
+     
+}
+table{
+    
+    border-collapse: collapse;
+    text-align: center;
+    color: rgb(68, 60, 48);
+
+    display: flex;
+    justify-content: center; /* Centers the table */
+    align-items: center; /* Aligns content vertically */
+     
+    flex-direction: column;
+    
+}
+th{
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+    background-color: black;
+    color: white;  /* White text on a black background */
+    padding: 10px;
+
+
+}
+td{
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black; 
+    
+}
+.documents{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+a{
+    color: blueviolet;
+}
+a:visited{
+    color: aqua;
+}
+
+img{
+    flex-direction: row;
+    height: 500px;
+    width: px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 5px solid black;
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+<tag_1 attribute='Hardware'>
+    <element_1-1> CPU</element_1-1>
+    <element_1-2> GPU</element_1-2>
+    <element_1-3> RAM</element_1-3>
+    <element_1-4> SSD</element_1-4>
+</tag_1>
+
+<tag_2 attribute='Software'>
+    <element_2-1>Python</element_2-1>
+    <element_2-2>C++</element_2-2>
+    <element_2-3>HTML</element_2-3>
+    <element_2-4> CSS</element_2-4>
+</tag_2>
+
+<tag_3 attribute='Programs'>
+    <element_3-1>Google Chrome</element_3-1>
+    <element_3-2>Firefox</element_3-2>
+    <element_3-3>Opera</element_3-3>
+    <element_3-4>Brave</element_3-4>
+</tag_3>
+
+</document>
